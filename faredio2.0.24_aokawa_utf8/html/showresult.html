@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta name="robots" content="noindex,nofollow">
+	<title>検索結果</title>
+	<link rel="stylesheet" type="text/css" href="../faredio.css">
+</head>
+<body>
+<div style="width: 650px;">
+<!-- Faredio 結果表示コード初め -->
+<script type="text/javascript" src="../datasystem.js"></script>
+<script type="text/javascript" src="../getParam.js"></script>
+<script type="text/javascript" src="../core.js"></script>
+<script type="text/javascript" src="../routesel.js"></script>
+<script type="text/javascript">
+<!--
+	//ユーザー指定スクリプトの読み込み
+	if (userCalc!="") {
+		window.document.writeln('<script type="text/javascript" src="' + faredioDirG + 'datas/' + userCalc + '"><\/script>');
+	}
+//-->
+</script>
+<script type="text/javascript" src="../showresult.js"></script>
+<!-- Faredio 結果表示コード終り -->
+</div>
+<p><a href="javascript:history.back();">戻る</a></p>
+
+</body>
+</html>

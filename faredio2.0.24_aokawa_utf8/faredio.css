@@ -1,0 +1,88 @@
+h1.faredioResHeader {
+	font-size: 12pt;
+	width: 95%;
+	padding: 10px 5px 10px 5px;
+	margin: 10px 10px 5px 10px;
+	border-left: 4px solid #bbbbbb;
+
+}
+table.faredioRtHeader {
+	margin: 20px 10px 5px 10px;
+	font-size: 11pt;
+	width: 95%;
+	border: 1px solid #3388cc;
+	line-height: 14pt;
+	border-collapse: collapse;
+}
+th.faredioRtHeader {
+	width: 80px;
+	color: #ffffff;
+	background-color: #3388cc;
+}
+td.faredioRtHeader {
+	padding: 4px 7px 4px 7px;
+}
+strong.faredioRtHeader {
+	font-weight: bold;
+	color: #ff0000;
+}
+table.faredioRtBody {
+	margin: 15px 10px 40px 10px;
+	font-size: 11pt;
+	width: 95%;
+	border-collapse: collapse;
+	border-top: 3px solid #bcbcbc;
+	border-bottom: 3px solid #aaaaaa;
+}
+td.faredioRtBodyImg {
+	width:30px;
+	padding: 8px 4px 8px 12px;
+	background-color:#eaf2fd;
+}
+td.faredioRtBodySta {
+	padding: 8px 4px;
+	background-color:#eaf2fd;
+}
+td.faredioRtBodyFare {
+	padding: 8px;
+	width: 80px;
+	text-align: right;
+	background-color:#eaf2fd;
+}
+td.faredioRtBodyLine {
+	border-top: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	padding: 0px 0px 0px 17px;
+}
+td.faredioRtBodyLineTxt {
+	border-top: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	padding: 8px;
+}
+td.faredioRtBodyLineFC {
+	border-top: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	text-align: right;
+	padding: 8px;
+}
+div.faredioSign {
+	text-align: right;
+	font-size: 10pt;
+	padding: 8px 12px;
+}
+hr.faredioRtLineClr {
+	margin: 0px;
+	padding: 0px;
+	width: 0px;
+	height: 35px;
+	border: 0px;
+	border-left: 8px solid #9b9b9b;
+}
+hr.faredioRtLineWlk {
+	margin: 0px;
+	padding: 0px;
+	width: 0px;
+	height: 35px;
+	border: 0px;
+	border-left: 8px dotted #9b9b9b;
+}
